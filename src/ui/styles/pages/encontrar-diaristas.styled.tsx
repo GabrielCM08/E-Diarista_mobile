@@ -10,7 +10,7 @@ export const TextContainer = styled.Text`
 `;
 
 export const ErrorText = styled(TextContainer)`
-  color: 0 ${({ theme }) => theme.colors.error};
+  color: ${({ theme }) => theme.colors.error};
 `;
 
 export const ResponseContainer = styled.View`
